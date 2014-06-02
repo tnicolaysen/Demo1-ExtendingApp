@@ -163,6 +163,10 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Logging\ElasticSearchTarget.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Logging\JsonDumpRenderer.cs" />
     <Compile Include="Logging\SimpleElasticSearchWebClient.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -183,6 +187,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Logging\elasticsearch-template.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="NLog.config">
